@@ -95,7 +95,7 @@ Books with subtitles
 
 #.	A second :html:`<dc:title id="subtitle">` element contains the subtitle, and is refined with :html:`<meta property="title-type" refines="#subtitle">subtitle</meta>`.
 
-#.	A third :html:`<dc:title id="fulltitle">` element contains the complete title on one line, with the main title and subtitle separated by a colon and space, and is refined with :html:`<meta property="title-type" refines="#fulltitle">extended</meta>`.
+#.	A third :html:`<dc:title id="fulltitle">` element contains the complete title on one line, with the main title and subtitle separated by a colon and space, and is refined with :html:`<meta property="title-type" refines="#fulltitle">expanded</meta>`.
 
 #.	All three :html:`<dc:title>` elements have an accompanying :html:`<meta property="file-as">` element, even if the :value:`file-as` value is the same as the title.
 
@@ -114,7 +114,7 @@ Books with subtitles
 	<meta property="title-type" refines="#subtitle">subtitle</meta>
 	<dc:title id="fulltitle">The Man Who Was Thursday: A Nightmare</dc:title>
 	<meta property="file-as" refines="#fulltitle">Man Who Was Thursday, The</meta>
-	<meta property="title-type" refines="#fulltitle">extended</meta>
+	<meta property="title-type" refines="#fulltitle">expanded</meta>
 
 Books with a more popular alternate title
 =========================================
